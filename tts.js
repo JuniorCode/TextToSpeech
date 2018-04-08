@@ -2,7 +2,8 @@ responsiveVoice.setDefaultVoice("US English Male");
 
 if (annyang) {
   var commands = {
-    'speak *text': function(text) {
+    '*text': function(text) {
+      alert(text);
       responsiveVoice.speak(text);
     }
   };
