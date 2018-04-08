@@ -1,6 +1,6 @@
 if (annyang) {
   var commands = {
-    '*text': function(text) {
+    'speak *text': function(text) {
       responsiveVoice.speak(text);
     }
   };
